@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f7fafc;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #264653;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  color: #e76f51;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: #f4f9f9;
+}
+
+.hero h2 {
+  color: #2a9d8f;
+  font-size: 2.5rem;
+}
+
+.hero p {
+  color: #555;
+}
+
+/* Charts Section */
+.charts {
+  max-width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.charts h3 {
+  color: #264653;
+  margin-bottom: 20px;
+}
+
+.charts img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+  background: #264653;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

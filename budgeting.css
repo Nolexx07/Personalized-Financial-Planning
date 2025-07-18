@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background: #eef2f3;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #264653;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  color: #e76f51;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 40px;
+  background: #f4f9f9;
+}
+
+.hero h2 {
+  color: #2a9d8f;
+}
+
+.hero p {
+  color: #555;
+}
+
+/* Budgeting Section */
+.budgeting {
+  max-width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.budgeting h3 {
+  color: #264653;
+  margin-bottom: 20px;
+}
+
+.goal-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.goal-item:last-child {
+  border-bottom: none;
+}
+
+/* Footer */
+footer {
+  background: #264653;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
